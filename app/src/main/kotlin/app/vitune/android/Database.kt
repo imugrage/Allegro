@@ -351,7 +351,6 @@ interface Database {
     fun playlistPreviewsByDateSongCountDesc(): Flow<List<PlaylistPreview>>
 
 //add playlist list view here
-
     fun playlistPreviews(
         sortBy: PlaylistSortBy,
         sortOrder: SortOrder
